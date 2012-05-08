@@ -1,1 +1,23 @@
 my first padrino project
+
+Datebase : Postgresql
+change database user name "winking" to yours  in config/database.rb  
+
+install padrino :  
+    gem install padrino 
+
+install gems in Gemfile :
+    bundle install
+
+create database :
+    padrino rake ar:create
+    padrino rake ar:migrate
+
+add your login name and password :
+    padrino rake seed
+
+start project :
+    padrino start
+
+
+
